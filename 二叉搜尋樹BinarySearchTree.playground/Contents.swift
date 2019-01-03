@@ -107,7 +107,7 @@ extension BinarySearchTree {
             if node.leftChild == nil && node.rightChild == nil {
                 return nil
             }
-            // 左右子節點中，有其中一个為空
+            // 左右子節點中，有其中一個為空
             if node.leftChild == nil {
                 return node.rightChild
             }
